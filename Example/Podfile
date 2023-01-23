@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SpyneSDK_Example' do
+  pod 'SpyneSDK', :path => '../'
+
+  target 'SpyneSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
