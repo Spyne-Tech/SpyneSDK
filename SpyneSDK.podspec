@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SpyneSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SpyneSDK.'
+  s.version          = '0.1.1'
+  s.summary          = 'SpyneAl is a Car background photo Editing App that generates Studio-setting Images instantly. This Al-powered app also produces Market place ready Images for Footwear, grocery'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  SpyneAl is a Car background photo Editing App that generates Studio-setting Images instantly. It enables you to get car background photo editor options with just your phone. You no longer need to hire studios or even step outside as this simple yet powerful Spyne App lets you click simple images of your products and transforms them into professional marketplace images with the help of Al Automated Editing.
                        DESC
 
-  s.homepage         = 'https://github.com/Akash Verma/SpyneSDK'
+  s.homepage         = 'https://docs.spyne.ai/reference/ios-sdk-quick-start-guide'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'SpyneSDK' => 'tech@spyne.ai' }
