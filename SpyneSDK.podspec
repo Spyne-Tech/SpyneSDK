@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 #  * Write the description between the DESC delimiters below.
 #  * Finally, don't worry about the indent, CocoaPods strips it!
  s.description   = <<-DESC
- SpyneAl is a Car background photo Editing App that generates Studio-setting Images instantly. It enables you to get car background photo editor options with just your phone. You no longer need to hire studios or even step outside as this simple yet powerful Spyne App lets you click simple images of your products and transforms them into professional marketplace images with the help of Al Automated Editing.
+ 'SpyneAl is a Car background photo Editing App that generates Studio-setting Images instantly. It enables you to get car background photo editor options with just your phone. You no longer need to hire studios or even step outside as this simple yet powerful Spyne App lets you click simple images of your products and transforms them into professional marketplace images with the help of Al Automated Editing.'
             DESC
  s.homepage     = 'https://docs.spyne.ai/reference/ios-sdk-quick-start-guide'
  # s.screenshots   = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
  s.source      = { :git => 'https://github.com/Spyne-Tech/SpyneSDK.git', :tag => s.version.to_s }
  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
  s.ios.deployment_target = '13.0'
- s.source_files = 'Sources/**/*'
+ s.source_files = 'SpyneSDK/Sources/**/*'
  # s.resource_bundles = {
  #  'SpyneSDK' => ['SpyneSDK/Assets/*.png']
  # }
