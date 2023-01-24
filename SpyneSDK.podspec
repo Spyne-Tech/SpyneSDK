@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
  s.name       = 'SpyneSDK'
- s.version     = '0.1.1'
+ s.version     = '0.1.5'
  s.summary     = 'SpyneAl is a Car background photo Editing App that generates Studio-setting Images instantly. This Al-powered app also produces Market place ready Images for Footwear, grocery'
 # This description is used to generate tags and improve search results.
 #  * Think: What does it do? Why did you write it? What is the focus?
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
  s.source      = { :git => 'https://github.com/Spyne-Tech/SpyneSDK.git', :tag => s.version.to_s }
  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
  s.ios.deployment_target = '13.0'
- s.source_files = 'SpyneSDK/Classes/**/*'
+ s.source_files = 'Sources/**/*'
  # s.resource_bundles = {
  #  'SpyneSDK' => ['SpyneSDK/Assets/*.png']
  # }
