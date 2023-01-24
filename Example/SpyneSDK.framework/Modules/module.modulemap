@@ -1,0 +1,11 @@
+framework module SpyneSDK {
+  umbrella header "SpyneSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module SpyneSDK.Swift {
+  header "SpyneSDK-Swift.h"
+  requires objc
+}
