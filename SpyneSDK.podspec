@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
  s.name       = 'SpyneSDK'
- s.version     = '0.1.5'
+ s.version     = '0.1.6'
  s.summary     = 'SpyneAl is a Car background photo Editing App that generates Studio-setting Images instantly. This Al-powered app also produces Market place ready Images for Footwear, grocery'
 # This description is used to generate tags and improve search results.
 #  * Think: What does it do? Why did you write it? What is the focus?
