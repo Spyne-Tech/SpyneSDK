@@ -11,9 +11,9 @@
 		42A3CD0288944D5B05123AB7EA0E0C96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7EE62683505A2A6E333097A0B2295D8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8DC6B942C74100459344C355E0E2663C /* Pods-SpyneSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD08765EB7CA868D93816399309CD408 /* Pods-SpyneSDK_Example-dummy.m */; };
-		9768ECFB297FDE14008384BD /* SpyneSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9768ECFA297FDE14008384BD /* SpyneSDK.framework */; platformFilter = ios; };
-		9768ECFC297FDE14008384BD /* SpyneSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9768ECFA297FDE14008384BD /* SpyneSDK.framework */; platformFilter = ios; };
-		9768ECFD297FDE14008384BD /* SpyneSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9768ECFA297FDE14008384BD /* SpyneSDK.framework */; platformFilter = ios; };
+		9768ED02297FE3C3008384BD /* SpyneSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9768ED01297FE3C3008384BD /* SpyneSDK.framework */; platformFilter = ios; };
+		9768ED03297FE3C3008384BD /* SpyneSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9768ED01297FE3C3008384BD /* SpyneSDK.framework */; platformFilter = ios; };
+		9768ED04297FE3C3008384BD /* SpyneSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9768ED01297FE3C3008384BD /* SpyneSDK.framework */; platformFilter = ios; };
 		BAA675127AB3AA6EB3305CD72216A4DD /* SpyneSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3845D0015B200B1A6D7A5278EC5CB830 /* SpyneSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3C076F6B17099F1E9FA27A8BADFEEC5 /* Pods-SpyneSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4005E5FDC519EB27176EA00FA00A8C63 /* Pods-SpyneSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC772FB2DB89A2E929CB4A31A7728733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -64,7 +64,7 @@
 		7DE38E5A82DA74D921A4487436A7A2FD /* Pods-SpyneSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpyneSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		8C9B37FF08075975FB3CCA6811ECBB42 /* SpyneSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpyneSDK.release.xcconfig; sourceTree = "<group>"; };
 		938746DF892B9FA1EA4895A847E91846 /* Pods-SpyneSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpyneSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9768ECFA297FDE14008384BD /* SpyneSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpyneSDK.framework; sourceTree = "<group>"; };
+		9768ED01297FE3C3008384BD /* SpyneSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpyneSDK.framework; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB9BCB39FFC2BD4B8A89272DCF66B5A5 /* Pods-SpyneSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpyneSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C1D568527574C487D98B9D8F1C2E57BB /* Pods-SpyneSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpyneSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC772FB2DB89A2E929CB4A31A7728733 /* Foundation.framework in Frameworks */,
-				9768ECFC297FDE14008384BD /* SpyneSDK.framework in Frameworks */,
+				9768ED03297FE3C3008384BD /* SpyneSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +91,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42A3CD0288944D5B05123AB7EA0E0C96 /* Foundation.framework in Frameworks */,
-				9768ECFD297FDE14008384BD /* SpyneSDK.framework in Frameworks */,
+				9768ED04297FE3C3008384BD /* SpyneSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EE62683505A2A6E333097A0B2295D8C /* Foundation.framework in Frameworks */,
-				9768ECFB297FDE14008384BD /* SpyneSDK.framework in Frameworks */,
+				9768ED02297FE3C3008384BD /* SpyneSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +120,6 @@
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				9768ECFA297FDE14008384BD /* SpyneSDK.framework */,
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
@@ -145,6 +144,7 @@
 		660E735ED4F28DD7A8298CFDF66B6DA0 /* SpyneSDK */ = {
 			isa = PBXGroup;
 			children = (
+				9768ED01297FE3C3008384BD /* SpyneSDK.framework */,
 				11467BC4B31118177EA1C52B12EC63B9 /* ReplaceMe.swift */,
 				2226E214F08442ACF3AE46770582ADF4 /* Pod */,
 				AA966641DDD9D2D95C987B8773039430 /* Support Files */,

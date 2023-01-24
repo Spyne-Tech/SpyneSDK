@@ -15,7 +15,6 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7E137AF2F90162A89B74C9A4 /* Pods_SpyneSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6610D857EE54FE0BF14E0DB7 /* Pods_SpyneSDK_Example.framework */; };
 		86DEE5343EE429AA6C1B4972 /* Pods_SpyneSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED99FA50731D2A133B93737 /* Pods_SpyneSDK_Tests.framework */; };
-		9768ECFF297FDE9B008384BD /* SpyneSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9768ECFE297FDE9B008384BD /* SpyneSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +43,6 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6610D857EE54FE0BF14E0DB7 /* Pods_SpyneSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyneSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7840863ADA3D3C062E0F72 /* SpyneSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SpyneSDK.podspec; path = ../SpyneSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9768ECFE297FDE9B008384BD /* SpyneSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpyneSDK.framework; sourceTree = "<group>"; };
 		B6079657201DE600BDD645C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C0DC74BA1944EF7B7940340C /* Pods-SpyneSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyneSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SpyneSDK_Tests/Pods-SpyneSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C64387959F691C7B46B8C59A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E137AF2F90162A89B74C9A4 /* Pods_SpyneSDK_Example.framework in Frameworks */,
-				9768ECFF297FDE9B008384BD /* SpyneSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +72,6 @@
 		183ED699A60B6FF4AE044F7C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9768ECFE297FDE9B008384BD /* SpyneSDK.framework */,
 				6610D857EE54FE0BF14E0DB7 /* Pods_SpyneSDK_Example.framework */,
 				3ED99FA50731D2A133B93737 /* Pods_SpyneSDK_Tests.framework */,
 			);
