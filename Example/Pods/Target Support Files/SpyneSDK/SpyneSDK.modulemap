@@ -1,0 +1,6 @@
+framework module SpyneSDK {
+  umbrella header "SpyneSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
