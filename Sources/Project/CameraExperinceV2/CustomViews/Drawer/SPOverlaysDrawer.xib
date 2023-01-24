@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SPOverlaysDrawer" customModule="SpyneFrameworkDebug" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="0cu-6V-0RT" id="x0E-Bc-tTR"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="ppp-RO-6Mp"/>
+                <outlet property="dismissButton" destination="3GT-yo-92S" id="JHa-fi-HQa"/>
+                <outlet property="dismissView" destination="1Dq-3W-9zq" id="jkb-jm-cKi"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="512" height="376"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Dq-3W-9zq">
+                    <rect key="frame" x="0.0" y="0.0" width="512" height="376"/>
+                    <subviews>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="0cu-6V-0RT">
+                            <rect key="frame" x="12" y="12" width="356" height="352"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="356" id="Mbs-cV-jG5"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="HO8-p6-Ky2">
+                                <size key="itemSize" width="110" height="82"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <connections>
+                                <outlet property="dataSource" destination="iN0-l3-epB" id="omT-an-hu6"/>
+                                <outlet property="delegate" destination="iN0-l3-epB" id="6pk-cJ-LAS"/>
+                            </connections>
+                        </collectionView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3GT-yo-92S">
+                            <rect key="frame" x="368" y="0.0" width="286" height="376"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title=" "/>
+                            <connections>
+                                <action selector="dismissButtonTouchUpInside:" destination="-1" eventType="touchUpInside" id="eI5-Xx-U1t"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.086274509803921567" green="0.078431372549019607" blue="0.10588235294117647" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="0cu-6V-0RT" firstAttribute="leading" secondItem="1Dq-3W-9zq" secondAttribute="leading" constant="12" id="KKv-Yo-oNj"/>
+                        <constraint firstAttribute="bottom" secondItem="0cu-6V-0RT" secondAttribute="bottom" constant="12" id="S11-SA-Fa4"/>
+                        <constraint firstItem="3GT-yo-92S" firstAttribute="top" secondItem="1Dq-3W-9zq" secondAttribute="top" id="Tcl-zr-U8n"/>
+                        <constraint firstAttribute="trailing" secondItem="3GT-yo-92S" secondAttribute="trailing" constant="-142" id="WfN-3t-X68"/>
+                        <constraint firstItem="3GT-yo-92S" firstAttribute="leading" secondItem="0cu-6V-0RT" secondAttribute="trailing" id="fPX-1B-sqk"/>
+                        <constraint firstItem="0cu-6V-0RT" firstAttribute="top" secondItem="1Dq-3W-9zq" secondAttribute="top" constant="12" id="iTQ-rP-1Vc"/>
+                        <constraint firstAttribute="bottom" secondItem="3GT-yo-92S" secondAttribute="bottom" id="rX0-pc-M52"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="0cu-6V-0RT" secondAttribute="trailing" constant="12" id="yBx-Ah-qcc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="1Dq-3W-9zq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="DOK-bu-5nI"/>
+                <constraint firstAttribute="bottom" secondItem="1Dq-3W-9zq" secondAttribute="bottom" id="RSI-mD-plP"/>
+                <constraint firstAttribute="trailing" secondItem="1Dq-3W-9zq" secondAttribute="trailing" id="SHz-zn-pmy"/>
+                <constraint firstItem="1Dq-3W-9zq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="bbX-Df-pwh"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-88.151658767772503" y="-3.0769230769230766"/>
+        </view>
+    </objects>
+</document>

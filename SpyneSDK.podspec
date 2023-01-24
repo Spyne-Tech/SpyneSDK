@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SpyneSDK'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'SpyneAl is a Car background photo Editing App that generates Studio-setting Images instantly. This Al-powered app also produces Market place ready Images for Footwear, grocery'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'SpyneSDK/Classes/**/*'
+  s.source_files = 'Sources/**/*'
   
   # s.resource_bundles = {
   #   'SpyneSDK' => ['SpyneSDK/Assets/*.png']
